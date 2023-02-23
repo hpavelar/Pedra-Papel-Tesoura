@@ -5,10 +5,10 @@ function jogar () {
     if (player == 0) {
         document.getElementById("div1").innerHTML += "<img src = 'papel.jpg' width = '200px'>"
     }
-    if (player == 1) {
+    else if (player == 1) {
         document.getElementById("div1").innerHTML += "<img src = 'pedra.jpg' width = '200px'>"
     }
-    if (player == 2) {
+    else if (player == 2) {
         document.getElementById("div1").innerHTML += "<img src = 'tesoura.jpg' width = '200px'>"
     }
 
@@ -16,40 +16,40 @@ function jogar () {
     if (cpu == 0) {
         document.getElementById("div2").innerHTML += "<img src = 'papel.jpg' width = '200px'>"
     }
-    if (cpu == 1) {
+    else if (cpu == 1) {
         document.getElementById("div2").innerHTML += "<img src = 'pedra.jpg' width = '200px'>"
     }
-    if (cpu == 2) {
+    else if (cpu == 2) {
         document.getElementById("div2").innerHTML += "<img src = 'tesoura.jpg' width = '200px'>"
     }
 
     if (player == 0 && cpu == 0) {
         document.getElementById("campo").innerHTML += "<br /> EMPATAMOS :/"
         }
-    if (player == 1 && cpu == 1) {
+    else if (player == 1 && cpu == 1) {
         document.getElementById("campo").innerHTML += "<br /> EMPATAMOS :/"
         }
-    if (player == 2 && cpu == 2) {
+    else if (player == 2 && cpu == 2) {
         document.getElementById("campo").innerHTML += "<br /> EMPATAMOS :/"
         }   
-    if (player == 0 && cpu == 1) {
+    else if (player == 0 && cpu == 1) {
         document.getElementById("campo").innerHTML += "<br /> VOCÊ VENCEU :/"
         } 
-    if (player == 0 && cpu == 2) {
+    else if (player == 0 && cpu == 2) {
         document.getElementById("campo").innerHTML += "<br /> VOCÊ PERDEU =D"
         }
 
-    if (player == 1 && cpu == 0) {
+    else if (player == 1 && cpu == 0) {
         document.getElementById("campo").innerHTML += "<br /> VOCÊ PERDEU =D"
         }
-    if (player == 1 && cpu == 2) {
+    else if (player == 1 && cpu == 2) {
         document.getElementById("campo").innerHTML += "<br /> VOCÊ VENCEU :/"
         }
 
-    if (player == 2 && cpu == 0) {
+    else if (player == 2 && cpu == 0) {
         document.getElementById("campo").innerHTML += "<br /> VOCÊ VENCEU :/"
         }
-    if (player == 2 && cpu == 1) {
+    else if (player == 2 && cpu == 1) {
         document.getElementById("campo").innerHTML += "<br /> VOCÊ PERDEU =D"
         }
 
